@@ -29,6 +29,7 @@ This was implemented by REACT,JS and CSS.
 As part of the website's main features an FAQ and Contact will provide answer any burning questions the users may have as well as provide a way for them to Contact us.
 This was implemented via React ,JS and CSS.
 
+
 ### SETUP. 
 1.Create a repository on Github named Project-Phase2. 
 2.Invite collaborators to the repository. 
@@ -37,5 +38,6 @@ This was implemented via React ,JS and CSS.
 6.Create a new file named style.css. 
 7.Work on meeting the App's deliverables via React.
 
-LICENSE
-MIT License CopyRight(c) 2023 ANITA GALINA
+
+# LICENSE
+MIT License CopyRight(c) 2023 PAUL KAMAU , MBIKI WAWERU , LYON BETT , ANITA GALINA.
