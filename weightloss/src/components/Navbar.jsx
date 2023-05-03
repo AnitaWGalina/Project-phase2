@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className='Navbar'>
-        <h1>Our Navbar <i className='fab fa-react'></i></h1>
+        <h1>Nutrition For Weight Loss <i className='fab fa-react'></i></h1>
         <ul>
             {MenuData.map((item, index)=> {
                 return (

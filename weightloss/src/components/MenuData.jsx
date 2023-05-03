@@ -12,10 +12,10 @@ export const MenuData = [
         icon:"fa-solid fa-circle-info"
     },
     {
-        title:"Service",
+        title:"FAQ",
         url:"#",
         cName:"nav-links",
-        icon:"fa-solid fa-briefcase"
+        icon:""
     },
     {
         title:"Contact",
