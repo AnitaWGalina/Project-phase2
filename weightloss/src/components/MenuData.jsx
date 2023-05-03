@@ -18,7 +18,7 @@ export const MenuData = [
         icon:"fa-solid fa-briefcase"
     },
     {
-        title:"Home",
+        title:"Contact",
         url:"#",
         cName:"nav-links",
         icon:"fa-solid fa-house-user"

@@ -1,4 +1,5 @@
 import React from 'react'
+import { MenuData } from './MenuData'
 
 const Navbar = () => {
   return (
@@ -6,11 +7,16 @@ const Navbar = () => {
       <nav className='Navbar'>
         <h1>Our Navbar <i className='fab fa-react'></i></h1>
         <ul>
-            <li>
-                <a href= "index.html">
-                    <i className='fa-solid fa-house-user'></i>Home
+            {MenuData.map((item, index)=> {
+                return (
+                    <li key={index}>
+                <a href= {item.url} className={item.cName}>
+                    <i className={item.icon}></i>{item.title}
                 </a>
             </li>
+                )
+            })}
+            
         </ul>
       </nav>
     </div>
