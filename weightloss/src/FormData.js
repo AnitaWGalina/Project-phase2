@@ -1,12 +1,9 @@
-# Project-phase2
-
-
-
 import React, { useState } from "react";
+//import "./FormData.css";
 
 const FormData = () => {
   const [name, setName] = useState("");
- ;
+  const [weight, setWeight] = useState("");
   const [dob, setDob] = useState("");
   const [height, setHeight] = useState("");
   const [gender, setGender] = useState("");
@@ -17,11 +14,11 @@ const FormData = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
+
     // You can use this data to make API calls or perform calculations
     const formData = {
       name,
-      
+      weight,
       dob,
       height,
       gender,
@@ -35,8 +32,8 @@ const FormData = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form onSubmit={handleSubmit} className="form">
+      <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -46,7 +43,17 @@ const FormData = () => {
         />
       </div>
 
-      <div>
+      <div className="form-group">
+        <label htmlFor="weight">Weight (kg):</label>
+        <input
+          type="number"
+          id="weight"
+          value={weight}
+          onChange={(e) => setWeight(e.target.value)}
+        />
+      </div>
+
+      <div className="form-group">
         <label htmlFor="dob">Date of Birth:</label>
         <input
           type="date"
@@ -56,7 +63,7 @@ const FormData = () => {
         />
       </div>
 
-      <div>
+      <div className="form-group">
         <label htmlFor="height">Height (cm):</label>
         <input
           type="number"
@@ -66,7 +73,7 @@ const FormData = () => {
         />
       </div>
 
-      <div>
+      <div className="form-group">
         <label htmlFor="gender">Gender:</label>
         <select
           id="gender"
@@ -80,7 +87,7 @@ const FormData = () => {
         </select>
       </div>
 
-      <div>
+      <div className="form-group">
         <label htmlFor="current-weight">Current Weight (kg):</label>
         <input
           type="number"
@@ -90,7 +97,7 @@ const FormData = () => {
         />
       </div>
 
-      <div>
+      <div className="form-group">
         <label htmlFor="target-weight">Target Weight (kg):</label>
         <input
           type="number"
@@ -100,7 +107,7 @@ const FormData = () => {
         />
       </div>
 
-      <div>
+      <div className="form-group">
         <label htmlFor="daily-movement">Daily Movement:</label>
         <textarea
           id="daily-movement"
@@ -108,6 +115,7 @@ const FormData = () => {
           onChange={(e) => setDailyMovement(e.target.value)}
         />
       </div>
+
 
       <div>
         <label htmlFor="health-issues">Health Issues:</label>
@@ -117,6 +125,6 @@ const FormData = () => {
           onChange={(e) => setHealthIssues(e.target.value)}
         />
       </div>
-      </form>
-)};
-export default FormData;
+      </form> 
+  )};
+  export default FormData;
