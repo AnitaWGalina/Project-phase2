@@ -24,6 +24,10 @@
 .logo {
     justify-self: start;
     cursor: pointer;
+    font-size: 45px;
+    color: rgb(83, 211, 9);
+    text-justify: center;
+    
 }
 
 .fa-react {
