@@ -17,10 +17,5 @@ export const MenuData = [
         cName:"nav-links",
         icon:"fa-solid fa-circle-question"
     },
-    {
-        title:"Contact",
-        url:"#",
-        cName:"nav-links",
-        icon:"fa-solid fa-address-book"
-    },
+    
 ]

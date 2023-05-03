@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="hero">
       <div>
-        <a>Start</a>
+        <a href="#">Start</a>
       </div>
     </div>
   );
