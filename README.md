@@ -21,7 +21,7 @@ CSS
 This website seeks to provide a nutrition plan , based on the users needs as denoted by the form data extracted.
 In order to receive the desired information the user is required to fill out a form that will request for personal information based on their Name,Date of Birth,Gender,Current weight and height,underlying conditions if any ,as well as their current weight and target weight.
 This was implemented by JavaScript and REACT.
-Based on the data retrieved from the form a nutrition plan will be curated instantly to help them reach their goal.
+Based on the data retrieved from the form a nutrition plan will be curated instantly to help them reach their weightloss goal.
 In order to provide the desired nutrition plan,data will be fetched from an API.
 As part of the website , a Navigation Bar was implemented which features a Home, About,FAQ and Contact Button using React.
 The Home page will be implemented via REACT and CSS , displaying transformation results based on different users nutrition plans.
