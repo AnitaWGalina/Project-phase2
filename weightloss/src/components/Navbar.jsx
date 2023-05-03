@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
 import { MenuData } from './MenuData'
+import Hero from '../components/Herosection';
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
         setState(!state) 
     }
   return (
-    <div>
+    <header className='header'>
       <nav className='Navbar'>
         <h1 className='logo'><i className='fab fa-react'></i>Diet Generator </h1>
         <div className='menu-icons' onClick={handleClick}>
@@ -29,7 +30,8 @@ const Navbar = () => {
             
         </ul>
       </nav>
-    </div>
+      <Hero />
+    </header>
   )
 }
 

@@ -1,6 +1,6 @@
 .hero {
-    background-image: url(../assets/nutrition_720.jpg);
-    height: 700px;
+    background-image: url(./assets/nutrition.jpg);
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
