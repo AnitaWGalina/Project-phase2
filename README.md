@@ -40,4 +40,4 @@ This was implemented via React ,JS and CSS.
 
 
 # LICENSE
-MIT License CopyRight(c) 2023 PAUL KAMAU , MBIKI WAWERU , LYON BETT , ANITA GALINA.
+MIT License CopyRight(c) 2023  PAUL KAMAU , MBIKI WAWERU , LYON BETT , ANITA GALINA.
