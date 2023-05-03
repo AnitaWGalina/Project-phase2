@@ -1,7 +1,7 @@
 
 # PROJECT-PHASE2
 
-# AUTHORS - 
+# AUTHORS
 PAUL KAMAU
 MBIKI WAWERU , 
 LYON BETT ,
@@ -12,11 +12,13 @@ REACT
 JAVASCRIPT
 CSS
 
-### DELIVERABLES 1.Provide an Input form for users to key in their details in order to receive the curated information.
+### DELIVERABLES 
+1.Provide an Input form for users to key in their details in order to receive the curated information.
 2.Provide a nutrition plan based on the users details specifically their target weight goal. 
 3.Enable users to interact with the website and its different features that being the Home,About,Contact and FAQ feature.
 
-### DESCRIPTION. This website seeks to provide a nutrition plan based on the users needs as denoted by the form data.
+### DESCRIPTION. 
+This website seeks to provide a nutrition plan based on the users needs as denoted by the form data.
 In order to receive the desired information the user is required to fill out a form that will request for personal information based on their Name,Date of Birth,Gender,Current weight and height,underlying conditions if any ,as well as their current weight and target weight.
 This was implemented by JavaScript and REACT.
 Based on the data retrieved from the form a nutrition plan will be curated instantly to help them reach their goal.
