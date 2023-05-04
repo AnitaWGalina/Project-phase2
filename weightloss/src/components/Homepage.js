@@ -66,7 +66,7 @@ function Homepage() {
 
   useEffect(() => {
     //fetchUserData();
-    setUserDiet("WMvivXOyvvDLxcrrTXy1v");
+    //setUserDiet("WMvivXOyvvDLxcrrTXy1v");
   }, [fetchUserData, setUserDiet]);
   return (
     <div>
