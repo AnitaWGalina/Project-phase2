@@ -31,7 +31,9 @@ console.log(formData);
 };
 
 return (
-<form onSubmit={handleSubmit}>
+<form class='Container'
+ onSubmit={handleSubmit}>
+ <h1 class='Header'>FORM DATA</h1>
 <div class='Name'>
 <label htmlFor="name">Name:</label>
 <input
@@ -51,7 +53,7 @@ value={weight}
 onChange={(e) => setWeight(e.target.value)}
 />
 </div>
-<div>
+<div class='DOB'>
 <label htmlFor="dob">Date of Birth:</label>
 <input
 type="date"
@@ -61,7 +63,7 @@ onChange={(e) => setDob(e.target.value)}
 />
 </div>
 
-<div>
+<div class='Height'>
 <label htmlFor="height">Height (cm):</label>
 <input
 type="number"
@@ -71,8 +73,8 @@ onChange={(e) => setHeight(e.target.value)}
 />
 </div>
 
-<div>
-<label htmlFor="sex">Sex:</label>
+<div class='Sex'>
+<label class='Label' htmlFor="sex">Sex:</label>
 <select
 id="sex"
 value={sex}
@@ -104,7 +106,7 @@ onChange={(e) => setTargetWeight(e.target.value)}
 />
 </div> */}
 
-<div>
+<div class='ActivityLevel'>
 <label htmlFor="activityLevel">Activity Level:</label>
 <select
 id="activity-level"

@@ -4,7 +4,6 @@ import FormData  from './FormData'
 function App() {
   return (
     <div>
-    <h1>Form Data</h1>
     <FormData />
     </div>
   )
