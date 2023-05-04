@@ -20,5 +20,7 @@ h1{
 
 .text-content{
     font-size: 20px;
+    justify-content: center;
+    height: 50px;
    
 }
