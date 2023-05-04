@@ -40,7 +40,7 @@
     align-items: baseline;
 }
 
-/*.Sex{
+.Sex{
     margin: 70px;
     text-align: center;
     width: 51%;
@@ -48,7 +48,7 @@
     
 } 
 
-.ActivityLevel{
+/*.ActivityLevel{
     margin: 70px;
     text-align: center;
     width: 65%;
