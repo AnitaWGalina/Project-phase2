@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./FAQs.css";
+
 const FAQs = () => {
   return (
-    <div>
-      <div className="faqs">
-       
-      </div>
+    <div className="background-image">
       <h1 className="faqs-title">Frequently Asked questions</h1>
       <h3 className="faqs-content">
         1.Who is the program for?
@@ -27,5 +25,5 @@ const FAQs = () => {
       </h3>
     </div>
   );
-}
+};
 export default FAQs;
