@@ -11,7 +11,7 @@ const [weight, setWeight] = useState("");
 const [activityLevel, setActivityLevel] = useState("");
 // const [healthIssues, setHealthIssues] = useState("");
 
-const handleSubmit = (e) => {
+// const handleSubmit = (e) => {
 e.preventDefault();
 // You can use this data to make API calls or perform calculations
 const formData = {
