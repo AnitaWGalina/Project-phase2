@@ -7,7 +7,7 @@ const [height, setHeight] = useState("");
 const [sex, setSex] = useState("");
 const [weight, setWeight] = useState("");
 // const [currentWeight, setCurrentWeight] = useState("");
-const [targetWeight, setTargetWeight] = useState("");
+// const [targetWeight, setTargetWeight] = useState("");
 const [activityLevel, setActivityLevel] = useState("");
 // const [healthIssues, setHealthIssues] = useState("");
 
