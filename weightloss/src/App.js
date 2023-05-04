@@ -1,4 +1,5 @@
-import { useState, useCallback, useEffect } from "react";
+import About from "./components/About";
+import Faqs from "./components/Faqs";
 
 function App() {
   // const [data, setData] = useState([]);
