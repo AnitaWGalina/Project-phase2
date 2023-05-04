@@ -1,3 +1,4 @@
+
 import React from "react";
 import {Routes, Route} from 'react-router-dom'
 import Footer from "./components/Footer";
@@ -7,8 +8,6 @@ import About from './components/About';
 import FAQs from './components/FAQs';
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
-
-
 
 function App() {
   return (
@@ -23,8 +22,9 @@ function App() {
       </Routes>
      <Footer/>
     </div>
+
   );
 }
 
 export default App;
- 
+
