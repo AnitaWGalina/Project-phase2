@@ -42,7 +42,7 @@ onChange={(e) => setName(e.target.value)}
 />
 </div>
 
-<div className="form-group">
+<div className="Weight">
 <label htmlFor="weight">Weight (kg):</label>
 <input
 type="number"
