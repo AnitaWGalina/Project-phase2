@@ -28,8 +28,8 @@ In order to provide the desired nutrition plan,data will be fetched from an API.
 As part of the website , a Navigation Bar was implemented which features a Home, About,FAQ and Contact via React.
 The Home page will be implemented via REACT and CSS , displaying transformation results based on different users nutrition plans.
 This was implemented by REACT,JS and CSS.
-As part of the website's main features an FAQ and Contact will provide answers to any burning questions the users may have as well as provide a way for them to Contact us.
-This was implemented via React ,JS and CSS.
+As part of the website's main features an FAQ and Contact will provide answers to any burning questions the users may have as well as provide a way for the users  to reach us.
+These features were implemented via React ,JS and CSS.
 
 
 ### SETUP. 
