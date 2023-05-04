@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './FormData.css' 
 
 const FormData = () => {
 const [name, setName] = useState("");
@@ -31,7 +32,7 @@ console.log(formData);
 
 return (
 <form onSubmit={handleSubmit}>
-<div>
+<div class='Name'>
 <label htmlFor="name">Name:</label>
 <input
 type="text"
