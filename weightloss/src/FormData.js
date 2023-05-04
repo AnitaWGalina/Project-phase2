@@ -9,7 +9,7 @@ const [weight, setWeight] = useState("");
 // const [currentWeight, setCurrentWeight] = useState("");
 // const [targetWeight, setTargetWeight] = useState("");
 const [activityLevel, setActivityLevel] = useState("");
-const [healthIssues, setHealthIssues] = useState("");
+// const [healthIssues, setHealthIssues] = useState("");
 
 const handleSubmit = (e) => {
 e.preventDefault();
