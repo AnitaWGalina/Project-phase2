@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
-import React from "react";
 import {
   Box,
   Container,
@@ -8,13 +6,13 @@ import {
   Column,
   FooterLink,
   Heading,
-} from "./FooterStyles";
+} from "./Footerstyle";
 
 const Footer = () => {
   return (
     <Box>
       <h1 style={{ color: "green", textAlign: "center", marginTop: "-50px" }}>
-        Diet Generator
+       DIET GENERATOR
       </h1>
       <Container>
         <Row>
@@ -26,9 +24,10 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Services</Heading>
-            <FooterLink href="#">Diet Generator</FooterLink>
-            <FooterLink href="#">Custom Generated Weightloss Information</FooterLink>
-           
+            <FooterLink href="#">Nutrition plans</FooterLink>
+            <FooterLink href="#">Weightloss Information</FooterLink>
+            {/* /* <FooterLink href="#">Coding</FooterLink>
+            <FooterLink href="#">Teaching</FooterLink> */ }
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
