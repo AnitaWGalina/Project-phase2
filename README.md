@@ -1,4 +1,5 @@
 
+
 # PROJECT-PHASE2
 
 # AUTHORS
@@ -9,6 +10,7 @@ ANITA GALINA.
 
 ### REQUIREMENTS: 
 REACT 
+HTML
 JAVASCRIPT
 CSS
 
@@ -18,16 +20,16 @@ CSS
 3.Enable users to interact with the website and its different features that being the Home,About,Contact and FAQ feature.
 
 ### DESCRIPTION. 
-This website seeks to provide a nutrition plan , based on the users needs as denoted by the form data extracted.
-In order to receive the desired information the user is required to fill out a form that will request for personal information based on their Name,Date of Birth,Gender,Current weight and height,underlying conditions if any ,as well as their current weight and target weight.
+This website seeks to provide a nutrition plan based on the users needs as denoted by the form data extracted.
+In order to receive the desired information the user is required to fill out a form that will request for personal information based on their Name,Date of Birth,Gender,Current weight and height,any underlying conditions ,activity level as well as their current weight and target weight.
 This was implemented by JavaScript and REACT.
-Based on the data retrieved from the form a nutrition plan will be curated instantly to help them reach their weightloss goal.
+Based on the data retrieved from the form , a nutrition plan will be curated instantly to help them achieve their weightloss goal.
 In order to provide the desired nutrition plan,data will be fetched from an API.
-As part of the website , a Navigation Bar was implemented which features a Home, About,FAQ and Contact Button using React.
+As part of the website , a Navigation Bar was implemented which features a Home, About,FAQ and Contact via React.
 The Home page will be implemented via REACT and CSS , displaying transformation results based on different users nutrition plans.
 This was implemented by REACT,JS and CSS.
-As part of the website's main features an FAQ and Contact will provide answer any burning questions the users may have as well as provide a way for them to Contact us.
-This was implemented via React ,JS and CSS.
+As part of the website's main features an FAQ and Contact will provide answers to any burning questions the users may have as well as provide a way for the users  to reach us.
+These features were implemented via React ,JS and CSS.
 
 
 ### SETUP. 
