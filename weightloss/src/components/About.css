@@ -1,0 +1,24 @@
+/* .about {
+    background-image: url(./assets/nutrition.jpg);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
+h1{
+    font-size: 40px;
+   
+    color: rgb(83, 211, 9);
+}
+
+.text-content{
+    font-size: 20px;
+   
+}
