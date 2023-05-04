@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const FormData = () => {
 const [name, setName] = useState("");
 const [dob, setDob] = useState("");
-// const [height, setHeight] = useState("");
+const [height, setHeight] = useState("");
 // const [sex, setSex] = useState("");
 // const [weight, setWeight] = useState("");
 // const [currentWeight, setCurrentWeight] = useState("");
