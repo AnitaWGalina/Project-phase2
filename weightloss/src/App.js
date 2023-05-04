@@ -6,7 +6,7 @@ import Hero from './components/Herosection';
 import About from './components/About';
 import FAQs from './components/FAQs';
 import Homepage from "./components/Homepage";
-import Navbar from "./components/Navbar";
+
 
 
 
@@ -18,6 +18,7 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path='/about' element={<About/>} />
         <Route path='/faq'element={<FAQs/>} />
+   
         
         
       </Routes>
