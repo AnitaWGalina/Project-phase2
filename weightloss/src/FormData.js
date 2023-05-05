@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./FormData.css";
 
-const FormData = () => {
+const FormData = ({ handleSubmit }) => {
   const [name, setName] = useState("");
   const [dob, setDob] = useState("");
   const [height, setHeight] = useState("");
@@ -12,26 +12,8 @@ const FormData = () => {
   const [activityLevel, setActivityLevel] = useState("");
   // const [healthIssues, setHealthIssues] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // You can use this data to make API calls or perform calculations
-    const formData = {
-      name,
-      weight,
-      dob,
-      height,
-      sex,
-      // currentWeight,
-      // targetWeight,
-      activityLevel,
-      //healthIssues
-    };
-
-    console.log(formData);
-  };
-
   return (
-    <form className="Container" id="form" onSubmit={handleSubmit}>
+    <form className="Container" id="form">
       <h1 className="Header">FORM DATA</h1>
       <div className="Name">
         <label htmlFor="name">Name:</label>
@@ -78,8 +60,8 @@ const FormData = () => {
         </label>
         <select id="sex" value={sex} onChange={(e) => setSex(e.target.value)}>
           <option value="select">select</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
+          <option value="MALE">MALE</option>
+          <option value="FEMALE">FEMALE</option>
         </select>
       </div>
 
@@ -118,7 +100,9 @@ onChange={(e) => setTargetWeight(e.target.value)}
           <option value="VERY_ACTIVE">VERY_ACTIVE</option>
         </select>
       </div>
-
+      <button type="submit" onSubmit={() => handleSubmit()}>
+        submit
+      </button>
       {/* <div>
 <label htmlFor="health-issues">Health Issues:</label>
 <textarea

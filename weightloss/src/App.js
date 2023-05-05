@@ -6,7 +6,6 @@ import Hero from "./components/Herosection";
 import About from "./components/About";
 import FAQs from "./components/FAQs";
 import Homepage from "./components/Homepage";
-import FormData from "./FormData";
 
 function App() {
   return (
@@ -17,8 +16,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<FAQs />} />
       </Routes>
-      <FormData />
+
       <Homepage />
+
       <Footer />
     </div>
   );

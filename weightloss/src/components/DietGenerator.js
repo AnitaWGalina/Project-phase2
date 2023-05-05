@@ -2,7 +2,8 @@ import React from "react";
 
 // import ReactDOM from "react-dom";
 
-function DietGenerator({ dietData }) {
+function DietGenerator({ dietData, user }) {
+  console.log(user);
   console.log(dietData);
   return (
     <div>
