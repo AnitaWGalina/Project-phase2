@@ -1,25 +1,32 @@
 import React from "react";
+
 // import ReactDOM from "react-dom";
 
 function DietGenerator({ dietData }) {
+  console.log(dietData);
   return (
     <div>
       {dietData.dailyPlan?.map((plan, index) => {
-        <span>Day ${index + 1}:</span>;
-        for (const meal of plan.meals) {
-          <p> For meal ${meal.type} you should eat:</p>;
-          for (const ingredient of meal.ingredients) {
-            <p>
-              {ingredient.quantity} {ingredient.name}
-            </p>;
-          }
-          console.log("");
-        }
+        return (
+          <div key={index}>
+            <span>Day {index + 1}:</span>
+            <div>
+              {plan.meals?.map((meal) => (
+                <div key={meal.type}>
+                  <p>For meal {meal.type} you should eat:</p>
+                  {meal.ingredients.map((ingredient) => (
+                    <p key={ingredient.name}>
+                      {ingredient.quantity} {ingredient.name}
+                    </p>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        );
       })}
     </div>
   );
 }
-
-// ReactDOM.render(<App />, document.getElementById("root"));
 
 export default DietGenerator;
