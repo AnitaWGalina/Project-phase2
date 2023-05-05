@@ -32,7 +32,9 @@ console.log(formData);
 
 return (
 <form class='Container'
- onSubmit={handleSubmit}>
+ onSubmit={handleSubmit}
+ id='form'>
+ 
  <h1 class='Header'>FORM DATA</h1>
 <div class='Name'>
 <label htmlFor="name">Name:</label>

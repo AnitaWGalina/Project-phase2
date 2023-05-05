@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="hero">
       <div>
-        <a href="#">Start</a>
+        <a href="#form">Start</a>
       </div>
     </div>
   );

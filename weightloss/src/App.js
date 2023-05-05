@@ -7,7 +7,7 @@ import Hero from './components/Herosection';
 import About from './components/About';
 import FAQs from './components/FAQs';
 import Homepage from "./components/Homepage";
-import Navbar from "./components/Navbar";
+import FormData from "./FormData";
 
 function App() {
   return (
@@ -20,6 +20,8 @@ function App() {
         
         
       </Routes>
+      <Homepage/>
+      <FormData/>
      <Footer/>
     </div>
 
