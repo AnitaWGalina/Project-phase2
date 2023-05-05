@@ -10,7 +10,7 @@ function DietGenerator({ dietData }) {
           <p> For meal ${meal.type} you should eat:</p>;
           for (const ingredient of meal.ingredients) {
             <p>
-              {ingredient.quantity} grams of {ingredient.name}
+              {ingredient.quantity} {ingredient.name}
             </p>;
           }
           console.log("");
@@ -19,7 +19,6 @@ function DietGenerator({ dietData }) {
     </div>
   );
 }
-
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
