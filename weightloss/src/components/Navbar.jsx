@@ -2,7 +2,6 @@ import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { MenuData } from "./MenuData";
-import Hero from "../components/Herosection";
 import "./Navbar.css";
 
 const Navbar = () => {
