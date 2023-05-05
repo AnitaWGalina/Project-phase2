@@ -10,7 +10,7 @@ function Homepage() {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      "X-RapidAPI-Key": "fa2176ba5fmshb9675f0083bd93fp11b16ajsn51717dba6d59",
+      "X-RapidAPI-Key": "e49c3064cdmsh06f603b55295383p195ceajs",
 
       "X-RapidAPI-Host": "bespoke-diet-generator.p.rapidapi.com",
     },
@@ -44,7 +44,7 @@ function Homepage() {
       headers: {
         "content-type": "application/json",
         "Accept-Language": "en",
-        "X-RapidAPI-Key": "fa2176ba5fmshb9675f0083bd93fp11b16ajsn51717dba6d59",
+        "X-RapidAPI-Key": "e49c3064cdmsh06f603b55295383p195ceajs",
         "X-RapidAPI-Host": "bespoke-diet-generator.p.rapidapi.com",
       },
       body: JSON.stringify({
@@ -65,8 +65,8 @@ function Homepage() {
   }, []);
 
   useEffect(() => {
-    //fetchUserData();
-    //setUserDiet("WMvivXOyvvDLxcrrTXy1v");
+    fetchUserData();
+    setUserDiet("WMvivXOyvvDLxcrrTXy1v");
   }, [fetchUserData, setUserDiet]);
   return (
     <div>

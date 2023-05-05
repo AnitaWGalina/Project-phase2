@@ -1,0 +1,61 @@
+.Container{
+    border: 20px solid white;
+    border-radius: 1%;
+    background-image: url(https://familydoctor.org/wp-content/uploads/2010/05/shutterstock_300553067.jpg);
+}
+
+.Header{
+    text-align: center;
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.Name{
+    margin: 70px;
+    text-align: center;
+    width: 60%;
+    text-size-adjust: 40%;
+}
+
+.Weight{
+    margin: 70px;
+    text-align: center;
+    width: 62.5%;
+
+}
+
+.DOB{
+    margin: 70px;
+    text-align: center;
+    width: 59%;
+    align-items: baseline;
+}
+
+.Height{
+    margin: 70px;
+    text-align: center;
+    width: 63%;
+    align-items: baseline;
+}
+
+.Sex{
+    margin: 70px;
+    text-align: center;
+    width: 51%;
+    align-items: baseline;
+    
+} 
+
+.ActivityLevel{
+    margin: 70px;
+    text-align: center;
+    width: 65%;
+    align-items: baseline;
+}
+
+.Label{
+    width: 60%;
+    height: 40%;
+} 

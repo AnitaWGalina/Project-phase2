@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         title:"Home",
-        url:"/",
+        url:"",
         cName:"nav-links",
         icon:"fa-solid fa-house-user"
     },
@@ -17,5 +17,6 @@ export const MenuData = [
         cName:"nav-links",
         icon:"fa-solid fa-circle-question"
     },
+   
     
 ]

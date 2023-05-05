@@ -1,4 +1,5 @@
 import React from "react";
+// import ReactDOM from "react-dom";
 
 function DietGenerator({ dietData }) {
   return (
@@ -18,5 +19,8 @@ function DietGenerator({ dietData }) {
     </div>
   );
 }
+
+
+// ReactDOM.render(<App />, document.getElementById("root"));
 
 export default DietGenerator;
